@@ -1,0 +1,43 @@
+.main-nav {
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .main-nav .dropdown {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .main-nav .dropdown .set {
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  
+  .main-nav .dropdown .drop {
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 25%;
+  }
+  
+  .elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #98999a;
+  }
+  
+  .line1 {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #98999a;
+    position: absolute;
+    top: 10; 
+    left: 0; 
+    right: 0; 
+    z-index: 1;
+  }

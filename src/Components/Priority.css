@@ -1,0 +1,87 @@
+.priority-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.priority-container {
+    flex: 1;
+    margin: 10px;
+}
+
+.priority-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priority-card-content {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.priority-card-content .id {
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.priority-card-content h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+.priority-card-content .id2 {
+    margin: 0px 8px;
+    font-size: 0.8rem;
+    color: #6B6F76;
+    margin-top: 5px;
+}
+
+.priority-card-content i {
+    padding: 1px 0px;
+    font-size: 1rem;
+    color: #6B6F76;
+    margin-top: 5px;
+}
+
+.priority-card-content .info {
+    border: 1px solid rgba(224, 224, 224, 0.749);
+    border-radius: 5px;
+    padding: 5px 4px 2px 4px;
+    margin: 0;
+}
+
+.priority-card-content .line02 {
+    display: flex;
+    border: 1px solid rgba(224, 224, 224, 0.749);
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+
+.priority-card-content .line01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.priority-card-content .line01 .m4 {
+    color: rgb(97, 163, 255);
+}
+.priority-card-content .line01 .m3 {
+    color: rgb(97, 255, 97);
+}
+.priority-card-content .line01 .m2 {
+    color: rgb(255, 234, 77);
+}
+
+.priority-card-content .line01 .m1 {
+    color: rgb(255, 93, 93);
+}
